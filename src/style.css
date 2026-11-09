@@ -98,3 +98,5 @@ html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}body{overscroll-behavi
 }
 @media(max-width:390px){.main,.content,.workspace{padding:8px!important}.audioScript{padding:12px!important}.bookingActions{grid-template-columns:1fr!important}.lessonAudioHead p{font-size:10px}.syncScript{font-size:13px!important}}
 @media(display-mode:standalone){body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}}
+
+.quickStudyLauncher{position:fixed;right:18px;bottom:max(18px,env(safe-area-inset-bottom));z-index:900;border:0;border-radius:16px;padding:10px 15px;display:grid;gap:2px;background:#173f6d;color:#fff;box-shadow:0 8px 24px #10263b55;cursor:pointer}.quickStudyLauncher b{font-size:13px}.quickStudyLauncher small{font-size:9px;color:#cfe4f2}@media(max-width:600px){.quickStudyLauncher{right:12px;bottom:max(12px,env(safe-area-inset-bottom))}}
